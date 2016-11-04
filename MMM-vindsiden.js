@@ -120,8 +120,15 @@ Module.register("MMM-vindsiden",{
 
 	getTableRow: function(location) {
 		var tdLocation = document.createElement("td");
-		tdLocation.className = "destination bright";
+
+		if(location.windspeed >= 6) {
+			tdLocation.className = "destination bright yellow";
+		} else {
+			tdLocation.className = "destination bright";
+		}
+
 		var txtLocation = document.createTextNode(location.locationName);
+
 		tdLocation.appendChild(txtLocation);
 
 		var tdWindspeed = document.createElement("td");

@@ -11,3 +11,8 @@ table.vindsiden { width: 100%; border: 1px;}
   padding-left: 30px;
   text-align: right;
 }
+
+
+.vindsiden .yellow {
+  color: yellow;
+}
