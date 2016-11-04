@@ -1,0 +1,13 @@
+/* MMM-Vindsiden */
+
+table.vindsiden { width: 100%; border: 1px;}
+
+.vindsiden .title {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.vindsiden .time {
+  padding-left: 30px;
+  text-align: right;
+}
