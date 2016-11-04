@@ -2,12 +2,12 @@
   "name": "mmm-vindsiden",
   "version": "1.0.0",
   "description": "The 'MMM-vindsiden' module is for displaying weather data from vindsiden.no",
-  "main": "MMM-Vindsiden.js",
+  "main": "MMM-vindsiden.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Erik Mohn",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
   },
   "dependencies": {

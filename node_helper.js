@@ -87,7 +87,7 @@ module.exports = NodeHelper.create({
 			var allLocationItems = new Array();
 
 			var location = locations;
-			//if (location.Data[0] != null) {
+
 				allLocationItems.push({
 					locationId: locationItem.locationId,
 					locationName: location.Name,
@@ -97,7 +97,6 @@ module.exports = NodeHelper.create({
 					winddirection: degreesToDirection(location.Data[0].DirectionAvg)
 				});
 				callback(null, allLocationItems);
-			//}
 
 			});
 
@@ -106,9 +105,6 @@ module.exports = NodeHelper.create({
 			});
 		}
 
-		var dateParam = ""
-
-		//http://vindsiden.no/api/stations/1?n=10
 		var options = {
 			host: "vindsiden.no",
 			path: "/api/stations/" + locationItem.locationId + "?n=1"

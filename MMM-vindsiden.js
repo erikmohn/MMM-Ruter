@@ -1,3 +1,12 @@
+/* Magic Mirror
+ * Node Helper: Vindsiden
+ *
+ * By Erik Mohn
+ *
+ * Forked from https://github.com/CatoAntonsen/MMM-Ruter
+ *
+ * MIT Licensed.
+ */
 Module.register("MMM-vindsiden",{
 
 	// Default module config.
