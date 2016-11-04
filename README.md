@@ -38,10 +38,14 @@ Add the module to the modules array in the `config/config.js` file by adding the
 		maxItems: 10,
 		locations: [
 			{
-				locationId: "3010972"
+				locationId: "1" //Larkollen
 			}
 		]
 	}
 },
 ...
+
+For a full list of avaiable weatherstations, see: http://vindsiden.no/api/stations
+
+Vindsiden.no API is roughly documented here: http://vindsiden.userecho.com/topics/9-finnes-det-et-api-mot-vindsidenno/
 
