@@ -2,7 +2,7 @@
   "LOADING":            "Loading &hellip;",
   "STARTINGMODULE":     "Starting module",
   "LOCATIONHEADER":     "Location",
-  "WINDSPEEDHEADER":    "Windspeed",
+  "WINDSPEEDHEADER":    "Wind",
   "GUSTHEADER":         "Gust",
   "DIRECTIONHEADER":    "Direction"
 }
