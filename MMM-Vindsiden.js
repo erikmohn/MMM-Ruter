@@ -1,11 +1,9 @@
-Module.register("MMM-Vindsiden",{
+Module.register("MMM-vindsiden",{
 
 	// Default module config.
 	defaults: {
 		showHeader: false, 				// Set this to true to show header above the journeys (default is false)
-		showPlatform: false,			// Set this to true to get the names of the platforms (default is false)
 		maxItems: 10,					// Number of journeys to display (default is 5)
-		humanizeTimeTreshold: 15, 		// If time to next journey is below this value, it will be displayed as "x minutes" instead of time (default is 15 minutes)
 		serviceReloadInterval: 30000, 	// Refresh rate in MS for how often we call Ruter's web service. NB! Don't set it too low! (default is 30 seconds)
 		timeReloadInterval: 1000, 		// Refresh rate how often we check if we need to update the time shown on the mirror (default is every second)
 		animationSpeed: 1000, 			// How fast the animation changes when updating mirror (default is 1 second)
