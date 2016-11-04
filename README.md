@@ -19,7 +19,7 @@ git clone https://github.com/erikmohn/MMM-vindsiden.git
 
 Go to the modules folder:
 ````bash
-cd MMM-Vindsiden
+cd MMM-vindsiden
 ````
 
 Install the dependencies:
@@ -30,7 +30,7 @@ npm install
 Add the module to the modules array in the `config/config.js` file by adding the following section. You can change this configuration later when you see this works:
 ```
 {
-	module: 'MMM-Vindsiden',
+	module: 'MMM-vindsiden',
 	header: 'Vindsiden.no',
 	position: 'top_left',
 	config: {
