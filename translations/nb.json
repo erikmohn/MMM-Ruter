@@ -1,11 +1,8 @@
 {
-	"LOADING":				"Laster &hellip;",
-	"STARTINGMODULE":		"Starter modul",
-	"NOW":					"Nå",
-	"1MIN":					"1 minutt",
-	"MINUTES":				"minutter",
-	"LINEHEADER":			"Linje",
-	"DESTINATIONHEADER":	"Destinasjon",
-	"PLATFORMHEADER":		"Plattform",
-	"TIMEHEADER":			"Tid"
+  "LOADING":            "Laster &hellip;",
+  "STARTINGMODULE":     "Starter modul",
+  "LOCATIONHEADER":     "Sted",
+  "WINDSPEEDHEADER":    "Vind",
+  "GUSTHEADER":         "Kast",
+  "DIRECTIONHEADER":    "Retning"
 }

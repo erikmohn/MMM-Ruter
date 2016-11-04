@@ -1,12 +1,12 @@
 {
-  "name": "mmm-ruter",
+  "name": "mmm-vindsiden",
   "version": "1.0.0",
-  "description": "The 'MMM-Temperature' module is for displaying the temperature from sensors connected to the Raspberry Pi",
-  "main": "MMM-Ruter.js",
+  "description": "The 'MMM-vindsiden' module is for displaying weather data from vindsiden.no",
+  "main": "MMM-Vindsiden.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Cato Antonsen",
+  "author": "Erik Mohn",
   "license": "ISC",
   "devDependencies": {
   },
