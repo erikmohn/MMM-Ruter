@@ -13,7 +13,7 @@ Module.register("MMM-vindsiden",{
 	defaults: {
 		showHeader: false, 				// Set this to true to show header above the journeys (default is false)
 		maxItems: 10,					// Number of journeys to display (default is 5)
-		serviceReloadInterval: 30000, 	// Refresh rate in MS for how often we call Ruter's web service. NB! Don't set it too low! (default is 30 seconds)
+		serviceReloadInterval: 300000, 	// Refresh rate in MS for how often we call Ruter's web service. NB! Don't set it too low! (default is 30 seconds)
 		timeReloadInterval: 1000, 		// Refresh rate how often we check if we need to update the time shown on the mirror (default is every second)
 		animationSpeed: 1000, 			// How fast the animation changes when updating mirror (default is 1 second)
 		fade: false,					// Set this to true to fade list from light to dark. (default is true)
